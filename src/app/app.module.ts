@@ -8,6 +8,7 @@ import { UserComponent } from './user/user.component';
 import { LoginComponent } from './login/login.component';
 import { HeaderComponent } from './header/header.component';
 import { ForbiddenComponent } from './forbidden/forbidden.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ForbiddenComponent } from './forbidden/forbidden.component';
     ForbiddenComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
